@@ -41,7 +41,8 @@ body {
 
 .main {
     width: 90%;
-    max-width: 1000px;
+    max-width: 1100px;
+    margin-inline: auto;
 }
 
 h1 {
@@ -124,9 +125,9 @@ h2 {
 
 
 .icon {
-    margin-top: 1em;
-    float: right;
-    clear: both;
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
 }
 
 @media (min-width:630px) {
